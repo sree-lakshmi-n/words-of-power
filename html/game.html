@@ -1,0 +1,43 @@
+<body>
+  <div class="wrapper">
+    <div id="clueArea" class="cluesection"></div>
+    <div class="timer">
+      <img class="timer-static" src="../images/Timer-Static.svg" />
+      <img
+        class="timer-light"
+        src="../images/Timer-Seconds-Light.svg"
+        onload="SVGInject(this)"
+      />
+      <div id="minutes" class="timerprop"></div>
+      <span id="timeDivider" class="extraspan" class="timerprop">:</span>
+      <div id="seconds" class="timerprop"></div>
+    </div>
+    <div class="playsection">
+      <input
+        type="text"
+        id="usertext"
+        placeholder="Starts with "
+        oninput="checkInputWord()"
+      />
+    </div>
+    <div id="skipbtn" onclick="skip()">Skip</div>
+    <div class="scoresection">
+      <div class="scoreheader">
+        <h1>Level</h1>
+        <p id="level"></p>
+      </div>
+      <div class="streakpoints">
+        <p><span id="points"></span><br />points</p>
+        <p><span id="streak"></span><br />streak</p>
+      </div>
+      <div class="wordstrack">
+        <div class="wordsans">
+          Words answered:<br /><span id="wordsanswered"></span>
+        </div>
+        <div class="wordsmiss">
+          Words missed:<br /><span id="wordsmissed"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

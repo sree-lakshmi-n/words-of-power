@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#resultWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#resultWrapper div {
+  width: 40%;
+  border-radius: 1.25em;
+  background-color: #ffffff;
+  border: 1px solid #e9eaec;
+  color: #212121;
+  font-family: "ZohoPuviBold";
+  font-size: 1.5em;
+  text-align: center;
+  padding: 1em 0;
+}
+.resBox {
+  font-size: 4.8em;
+}
+.container input {
+  margin-top: 1.2em;
+  font-size: 2.25em;
+  border-radius: 0.625em;
+  background-color: #f9d54f;
+  color: #212121;
+  font-family: "ZohoPuviBold";
+  padding: 0.4em 0;
+}
+.container input:hover{
+  background-color: #ff5353;
+}
+@media only screen and (max-width: 850px) {
+  .container {
+    width: 75%;
+  }
+  #resultWrapper div {
+    font-size: 1em;
+  }
+  .container input {
+    font-size: 1.5em;
+    padding: 0.4em;
+  }
+}

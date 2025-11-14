@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "ZohoPuviExtLight";
+  src: url("./fonts/Zoho Puvi Extralight.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "ZohoPuviLight";
+  src: url("./fonts/Zoho Puvi Light.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "ZohoPuviThin";
+  src: url("./fonts/Zoho Puvi Thin.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "ZohoPuviMedium";
+  src: url("./fonts/Zoho Puvi Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "ZohoPuviRegular";
+  src: url("./fonts/Zoho Puvi Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "ZohoPuviRegular";
+  src: url("./fonts/Zoho Puvi Regular italic.woff") format("woff");
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "ZohoPuviBlack";
+  src: url("./fonts/Zoho Puvi Black.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "ZohoPuviBlack";
+  src: url("./fonts/Zoho Puvi Extrablack.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "ZohoPuviSemibold";
+  src: url("./fonts/Zoho Puvi Semibold.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "ZohoPuviSemibold";
+  src: url("./fonts/Zoho Puvi Semibold.woff") format("woff");
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "ZohoPuviBold";
+  src: url("./fonts/Zoho Puvi Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "ZohoPuviExtBold";
+  src: url("./fonts/Zoho Puvi Extrabold.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
